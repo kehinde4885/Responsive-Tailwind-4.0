@@ -419,6 +419,96 @@ video {
   display: none;
 }
 
+@font-face {
+  font-family: DM Sans ;
+
+  src: url("./fonts/dm-sans-v10-latin-700.woff");
+
+  font-weight: 700;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: DM Sans ;
+
+  src: url("./fonts/dm-sans-v10-latin-italic.woff2");
+
+  font-weight: 400;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: DM Sans ;
+
+  src: url("./fonts/dm-sans-v11-latin-500.woff2");
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: DM Sans ;
+
+  src: url("./fonts/dm-sans-v10-latin-regular.woff2");
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GT Walsheim ;
+
+  src: url("./fonts/GT-Walsheim-Medium-Oblique.woff2");
+
+  font-weight: 500;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: GT Walsheim ;
+
+  src: url("./fonts/GT-Walsheim-Medium.woff2");
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: GT Walsheim ;
+
+  src: url("./fonts/GT-Walsheim-Regular-Oblique.woff2");
+
+  font-weight: 400;
+
+  font-style: italic;
+}
+
+@font-face {
+  font-family: GT Walsheim ;
+
+  src: url("./fonts/GT-Walsheim-Regular.woff2");
+
+  font-weight: 400;
+
+  font-style: normal;
+}
+
+@font-face {
+  font-family: Founders ;
+
+  src: url("./fonts/founders-grotesk-mono-medium.woff2");
+
+  font-weight: 500;
+
+  font-style: normal;
+}
+
 *, ::before, ::after {
   --tw-border-spacing-x: 0;
   --tw-border-spacing-y: 0;
@@ -513,6 +603,12 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.font-outfit {
-  font-family: outfit , sans-serif;
+.text-5xl {
+  font-size: 3em;
+  line-height: 1;
+}
+
+.text-metal {
+  --tw-text-opacity: 1;
+  color: rgb(143 143 143 / var(--tw-text-opacity));
 }
