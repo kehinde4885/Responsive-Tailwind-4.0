@@ -419,6 +419,10 @@ video {
   display: none;
 }
 
+html {
+  font-size: 62.5%;
+}
+
 @font-face {
   font-family: DM Sans ;
 
@@ -603,12 +607,42 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
-.text-5xl {
-  font-size: 3em;
-  line-height: 1;
+.flex {
+  display: flex;
 }
 
-.text-metal {
-  --tw-text-opacity: 1;
-  color: rgb(143 143 143 / var(--tw-text-opacity));
+.hidden {
+  display: none;
 }
+
+.h-12 {
+  height: 3rem;
+}
+
+.h-full {
+  height: 100%;
+}
+
+.w-4 {
+  width: 1rem;
+}
+
+.w-24 {
+  width: 6rem;
+}
+
+.justify-between {
+  justify-content: space-between;
+}
+
+.text-aubergine {
+  --tw-text-opacity: 1;
+  color: rgb(117 8 58 / var(--tw-text-opacity));
+}
+
+/* Layout */
+
+body{
+  display: grid;
+}
+

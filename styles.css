@@ -4,6 +4,10 @@
 
 @layer base{
 
+    html {
+        font-size: 62.5%;
+    }
+
     @font-face {
         font-family: DM Sans ;
         src: url("./fonts/dm-sans-v10-latin-700.woff");
@@ -70,3 +74,9 @@
     }
 
 }
+
+/* Layout */
+body{
+    display: grid;
+}
+
