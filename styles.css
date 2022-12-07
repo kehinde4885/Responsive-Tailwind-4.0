@@ -38,14 +38,14 @@
     }
 
     @font-face {
-        font-family: GT Walsheim ;
+        font-family: GT Walsheim;
         src: url("./fonts/GT-Walsheim-Medium-Oblique.woff2");
         font-weight: 500;
         font-style: italic;
     }
 
     @font-face {
-        font-family: GT Walsheim ;
+        font-family: GT Walsheim;
         src: url("./fonts/GT-Walsheim-Medium.woff2");
         font-weight: 500;
         font-style: normal;
@@ -53,14 +53,14 @@
     }
 
     @font-face {
-        font-family: GT Walsheim ;
+        font-family: GT Walsheim;
         src: url("./fonts/GT-Walsheim-Regular-Oblique.woff2");
         font-weight: 400;
         font-style: italic;
     }
 
     @font-face {
-        font-family: GT Walsheim ;
+        font-family: GT Walsheim;
         src: url("./fonts/GT-Walsheim-Regular.woff2");
         font-weight: 400;
         font-style: normal;

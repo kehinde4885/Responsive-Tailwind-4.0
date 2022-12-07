@@ -10,10 +10,10 @@
     <link rel="stylesheet" href="./output.css">
     <title>Fresco</title>
 </head>
-<body>
+<body class="text-coal">
 
     <header class="flex justify-between">
-        <img class="w-24" src="./images/frescoLogo.svg" alt="">
+        <img class="w-56" src="./images/frescoLogo.svg" alt="">
 
         <nav class="hidden">
             <ul class="flex">
@@ -26,82 +26,99 @@
 
         <button class="hidden">Download App</button>
 
-        <div class="">
+        <div class="bg-crema rounded-full p-2">
             <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full text-aubergine">
                 <path d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
         </div>
     </header>
 
     <section>
-        <div>
-            <p>Now we're cooking</p>
+        <div class="relative text-9xl  mix-blend-multiply  bg-gradient-to-b from-[rgba(0,0,0,0.6)] to-[rgba(0,0,0,0.2)] py-8">
+            <div class="bg-[url('./images/header.webp')] bg-cover bg-center bg-no-repeat top-0 absolute h-full w-full ">
+            </div>
+            <h1 class="relative text-crema-tint font-walsheim font-medium tracking-tighter">Now we're cooking.</h1>
         </div>
-        <div>
-            <p>It’s easier than ever to cook mouth-watering meals. 
+        <div class="text-4xl bg-crema-tint flex flex-col items-center space-y-8">
+            <p class="font-walsheim text-coal text-center">It’s easier than ever to cook mouth-watering meals. 
                 With Fresco, make your favorite recipes smart so that your appliances work with you. 
                 All you have to do is follow the steps and devour the results.
             </p>
-            <div>
+            <div class="flex">
                 <img src="./images/appStore.svg" alt="">
                 <img src="./images/playstore.svg" alt="">
-            </div>
+            </div>      
         </div>
     </section>
 
-    <section>
-        <div>
-            <p>Start cooking in a flash</p>
-            <p>Whether you’re a new cook or have been cooking for years, we’ll guide you through every recipe. 
+    <section class="bg-rocket-tint flex flex-col space-y-12">
+        <div class="">
+            <img class="rounded-full w-40" src="./images/download (2).jfif" alt="">
+            <img class="rounded-full w-20" src="./images/download (1).jfif" alt="">
+            <img class="rounded-full w-80" src="./images/download (3).jfif" alt="">
+            <img  class="rounded-full w-24" src="./images/download.jfif" alt="">
+        </div>
+
+        <div class="space-y-4 font-walsheim">
+            <h2 class="text-5xl text-rocket-shade font-medium">Start cooking in a flash</h2>
+            <p class="text-3xl  leading-relaxed tracking-tight">Whether you’re a new cook or have been cooking for years, we’ll guide you through every recipe. 
                 We’re always two steps ahead so that all you have to do is focus on that delicious dish.
             </p>
-            <button>Learn More</button>
-        </div>
+            <button class="bg-white text-rocket rounded-5xl text-3xl py-2 px-4 ">
+                <span class="font-medium">Learn More</span>
+                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
 
-        <div>
-            <img src="./images/download (2).jfif" alt="">
-            <img src="./images/download (1).jfif" alt="">
-            <img src="./images/download (3).jfif" alt="">
-            <img src="./images/download.jfif" alt="">
+            </button>
         </div>
     </section>
 
-    <section>
-        <div>
-            <p>Smart recipes for smart appliances</p>
-            <p>Tell us what smart appliances you have in your kitchen and we’ll find the perfect recipes for them. 
-                We’ll even set the correct times, temperatures, and settings so you can focus on the food.
-            </p>
-            <button>Download App</button>
+    <section class="bg-carrot-tint flex flex-col space-y-12">
+        <div class="grid grid-cols-2">
+            <img class="object-cover" src="./images/Meal (4).jfif" alt="">
+            <img class="object-cover" src="./images/Meal (1).jfif" alt="">
+            <img class="object-cover" src="./images/Meal (2).jfif" alt="">
+            <img class="object-cover" src="./images/Meal (3).jfif" alt="">
         </div>
 
-        <div>
-            <img src="./images/Meal (4).jfif" alt="">
-            <img src="./images/Meal (1).jfif" alt="">
-            <img src="./images/Meal (2).jfif" alt="">
-            <img src="./images/Meal (3).jfif" alt="">
-        </div>
+        <div class="space-y-4 font-walsheim">
+            <p class="text-5xl text-carrot-shade font-medium">Smart recipes for smart appliances</p>
+            <p class="text-3xl  leading-relaxed tracking-tight">Tell us what smart appliances you have in your kitchen and we’ll find the perfect recipes for them. 
+                We’ll even set the correct times,temperatures, and settings so you can focus on the food.
+            </p>
+            <button class="bg-white text-carrot rounded-5xl text-3xl py-2 px-4 ">
+                <span class="font-medium">Download App</span>
+                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+
+            </button>
+        </div>        
     </section>
 
-    <section>
-        <div>
-            <p>Make the internet your favorite cookbook</p>
-            <p>We can take recipes from your favorite websites and give you smart step-by-step instructions. 
-                Making a cheesecake for your big celebration? Pasta from your favorite celeb chef?
-                 We can do it all, and now, so can you.
-            </p>
-            <button>View Recipes</button>
-        </div>
-
-        <div>
-            <img src="./images/download (8).jfif" alt="">
-            <img src="./images/download (9).jfif" alt="">
+    <section class="bg-squash-tint flex flex-col space-y-12">
+        <div class="grid grid-cols-3 mix-blend-multiply">
+            <img class="" src="./images/download (8).jfif" alt="">
+            <img class="" src="./images/download (9).jfif" alt="">
             <img src="./images/download (10).jfif" alt="">
             <img src="./images/download (11).jfif" alt="">
             <img src="./images/download (12).jfif" alt="">
             <img src="./images/download (13).jfif" alt="">
-            <img src="./images/download (14).jfif" alt="">
-            <img src="./images/download.png" alt="">
+            <img class="" src="./images/download (14).jfif" alt="">
+            <div class="bg-squash rounded-full flex justify-center items-center">
+                <img class="w-2/5" src="./images/download.png" alt="">
+            </div>
         </div>
+
+        <div class="space-y-4 font-walsheim">
+            <p class="text-5xl text-squash-shade font-medium">Make the internet your favorite cookbook</p>
+            <p class="text-3xl  leading-relaxed tracking-tight">We can take recipes from your favorite websites and give you smart step-by-step instructions. 
+                Making a cheesecake for your big celebration? Pasta from your favorite celeb chef?
+                 We can do it all, and now, so can you.
+            </p>
+            <button class="bg-white text-squash-shade rounded-5xl text-3xl py-2 px-4 ">
+                <span class="font-medium">View Recipes</span>
+                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4"><path d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z" fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path></svg>
+
+            </button>
+        </div>
+
     </section>
 
     <section>
