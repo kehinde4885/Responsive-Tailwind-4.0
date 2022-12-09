@@ -5,7 +5,7 @@
 @layer base{
 
     html {
-        font-size: 62.5%;
+        
     }
 
     @font-face {
@@ -80,3 +80,16 @@ body{
     display: grid;
 }
 
+.gradient {
+background: linear-gradient(180deg, rgba(255,255,255,0) 34%, rgba(0,0,0,1) 95%);
+
+}
+
+.hot{
+    right: 0;
+}
+
+.wrapper {
+    display: grid;
+    grid-template-columns: 1fr 8fr 1fr;
+}
