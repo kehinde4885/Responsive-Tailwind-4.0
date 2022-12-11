@@ -3,6 +3,14 @@
 module.exports = {
   content: ["./index.html"],
   theme: {
+    screens: {
+      xs: '420px',
+      sm: '706px',
+      md: '768px',
+      lg: '1024px',
+      xl: '1280px',
+      '2xl': '1536px',
+    },
 
     spacing: {
       px: '1px',
@@ -72,19 +80,7 @@ module.exports = {
         "aubergine-tint" : "rgb(246,183,209)",
       },
      fontSize: {
-        exs: ['0.75em', { lineHeight: '1em' }],
-        esm: ['0.875em', { lineHeight: '1.25em' }],
-        ebase: ['1em', { lineHeight: '1.5em' }],
-        elg: ['1.125em', { lineHeight: '1.75em' }],
-        exl: ['1.25em', { lineHeight: '1.75em' }],
-        'e2xl': ['1.5em', { lineHeight: '2em' }],
-        'e3xl': ['1.875em', { lineHeight: '2.25em' }],
-        'e4xl': ['2.25em', { lineHeight: '2.5em' }],
-        'e5xl': ['3em', { lineHeight: '1' }],
-        'e6xl': ['3.75em', { lineHeight: '1' }],
-        'e7xl': ['4.5em', { lineHeight: '1' }],
-        'e8xl': ['6em', { lineHeight: '1' }],
-        'e9xl': ['8em', { lineHeight: '1' }],
+        '10xl': ['8.75em', { lineHeight: '1' }],
       },
 
       borderRadius: {
