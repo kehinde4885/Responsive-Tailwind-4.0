@@ -5,9 +5,11 @@ module.exports = {
   theme: {
     screens: {
       xs: '420px',
+      s: '640px',
       sm: '706px',
       md: '768px',
       lg: '1024px',
+      xlg: '1162px',
       xl: '1280px',
       '2xl': '1536px',
     },
@@ -51,6 +53,14 @@ module.exports = {
     },
 
     extend: {
+      backgroundImage:{
+        'cake': 'url("./images/recipe2.jpg")',
+        'soup': 'url("./images/recipe.jpg")',
+        'peas': 'url("./images/recipe1.png")',
+        'rice': 'url("./images/recipe4.jpg")',
+        'shrooms': 'url("./images/recipe5.jpg")',
+        'cereal': 'url("./images/recipe3.jpg")',
+      },
 
       fontFamily: {
         dmsans: "DM Sans",
