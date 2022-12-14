@@ -16,21 +16,22 @@
 <body class="text-coal">
     <div class="">
         <!-- header -->
-        <header class="px-5 pt-8 pb-4 flex bg-aubergine-tint">
+        <header class="lg:justify-between px-5 pt-8 pb-4 flex bg-aubergine items-center">
             <img class="w-36" src="./images/frescoLogo.svg" alt="">
 
-            <nav class="lg:block hidden self-center mx-auto">
+            <nav class="lg:block basis-auto hidden">
                 <ul class="flex text-white font-walsheim text-2xl font-medium space-x-4">
-                    <li><a href="#">Mobile App</a></li>
-                    <li><a href="#">Appliances</a></li>
-                    <li><a href="#">Recipes</a></li>
-                    <li><a href="#">Partners</a></li>
+                    <li><a href="./mobileapp.html">Mobile App</a></li>
+                    <li><a href="./appliances.html">Appliances</a></li>
+                    <li><a href="./recipes.html">Recipes</a></li>
+                    <li><a href="./partners.html">Partners</a></li>
                 </ul>
             </nav>
 
+
             <button
-                class="lg:text-white lg:bg-aubergine xs:block xs:ml-auto hidden bg-crema-tint text-aubergine font-medium rounded-5xl text-lg py-2 px-4 ">
-                Download App
+            class="lg:ml-0 xs:block xs:ml-auto hidden bg-crema-tint text-aubergine font-medium rounded-5xl text-lg py-2 px-4 w-max">
+            <a href="./mobileapp.html/#download"> Download App</a>
             </button>
 
             <div class="lg:hidden xs:ml-2 ml-auto self-center bg-crema-tint rounded-full p-2 w-10 h-10">
@@ -51,8 +52,9 @@
                         class="mix-blend-multiply bg-[url('./images/header.webp')] bg-cover bg-center bg-no-repeat top-0 absolute h-full w-full ">
                     </div>
                     <h1
-                        class="md:text-10xl md:py-3 sm:text-[4.75rem] text-7xl py-5 col-start-2 relative text-crema-tint font-walsheim font-medium tracking-tighter text-center">
-                        Now we're cooking.</h1>
+                        class="md:min-h-[55vh] md:text-10xl md:py-3 sm:text-[4.75rem] text-7xl py-5 col-start-2 relative text-crema-tint font-walsheim font-medium tracking-tighter text-center">
+                        Now we're cooking.
+                    </h1>
                 </div>
                 <div class="wrapper sm:py-20 bg-crema-tint py-12">
                     <div class="max-w-screen-xlg xlg:mx-auto col-start-2 space-y-8 flex flex-col items-center">
@@ -76,15 +78,13 @@
 
         <section class="">
             <article class="wrapper relative z-0 bg-rocket-tint py-12 overflow-hidden">
-                <div class="max-w-screen-xlg xlg:mx-auto md:flex-row col-start-2 flex flex-col space-y-12">
-
+                <div class="max-w-screen-xlg xlg:mx-auto md:flex-row md:min-h-[70vh] md:items-center col-start-2 flex flex-col space-y-12">
                     <div class="md:basis-2/4 md:order-2 self-center flex flex-col items-center">
                         <img class="rounded-full w-20" src="./images/download (2).jfif" alt="">
                         <img class="rounded-full w-10" src="./images/download (1).jfif" alt="">
                         <img class="rounded-full w-40" src="./images/download (3).jfif" alt="">
                         <img class="rounded-full w-12" src="./images/download.jfif" alt="">
                     </div>
-
                     <div class="md:basis-2/4 md:order-1 space-y-4 font-walsheim">
                         <h2 class="lg:text-7xl md:text-5xl text-[2rem] text-rocket-shade font-medium">Start cooking in a flash</h2>
                         <p class="md:text-xl md:leading-loose text-lg  leading-relaxed tracking-tight">Whether you’re a new cook or have been
@@ -92,14 +92,15 @@
                             We’re always two steps ahead so that all you have to do is focus on that delicious dish.
                         </p>
                         <button class="bg-white text-rocket rounded-5xl text-lg py-2 px-4 ">
-                            <span class="font-medium">Learn More</span>
-                            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="inline w-4 h-4">
-                                <path
-                                    d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                                    fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                            </svg>
-
+                            <a href="./mobileapp.html">
+                                <span class="font-medium">Learn More</span>
+                                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="inline w-4 h-4">
+                                    <path
+                                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -112,25 +113,27 @@
             </article>
 
             <article class="wrapper bg-carrot-tint py-12">
-                <div class="max-w-screen-xlg xlg:mx-auto md:flex-row col-start-2 flex flex-col space-y-12">
+                <div class="max-w-screen-xlg xlg:mx-auto md:flex-row md:min-h-[70vh] md:items-center col-start-2 flex flex-col space-y-12">
                     <div class="md:basis-2/4 flex flex-wrap justify-center">
                        <img  class="" src="./images/plate.svg" alt="">
                     </div>
-
                     <div class="md:basis-2/4 space-y-4 font-walsheim">
                         <p class="lg:text-7xl md:text-5xl text-[2rem] text-carrot-shade font-medium">Smart recipes for smart appliances</p>
-                        <p class="text-lg  leading-relaxed tracking-tight">Tell us what smart appliances you have in
+                        <p class="text-lg leading-relaxed tracking-tight">Tell us what smart appliances you have in
                             your kitchen and we’ll find the perfect recipes for them.
                             We’ll even set the correct times,temperatures, and settings so you can focus on the food.
                         </p>
                         <button class="bg-white text-carrot rounded-5xl text-lg py-2 px-4 ">
-                            <span class="font-medium">Download App</span>
-                            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="inline w-4 h-4">
-                                <path
-                                    d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                                    fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                            </svg>
+                            <a href="./mobileapp.html/#download">
+                                <span class="font-medium">Download App</span>
+                                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="inline w-4 h-4">
+                                    <path
+                                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                </svg>
+
+                            </a>
 
                         </button>
                     </div>
@@ -138,7 +141,7 @@
             </article>
 
             <article class="wrapper bg-squash-tint py-12">
-                <div class="max-w-screen-xlg xlg:mx-auto md:flex-row md:justify-between col-start-2 flex flex-col space-y-12">
+                <div class="max-w-screen-xlg xlg:mx-auto md:flex-row md:min-h-[70vh] md:items-center md:justify-between col-start-2 flex flex-col space-y-12">
                     <div class="md:order-2 md:basis-1/4 self-center w-4/6 grid grid-cols-3 mix-blend-multiply">
                         <img class="" src="./images/download (8).jfif" alt="">
                         <img class="" src="./images/download (9).jfif" alt="">
@@ -161,13 +164,15 @@
                             We can do it all, and now, so can you.
                         </p>
                         <button class="bg-white text-squash-shade rounded-5xl text-lg py-2 px-4 ">
-                            <span class="font-medium">View Recipes</span>
-                            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
-                                class="inline w-4 h-4">
-                                <path
-                                    d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                                    fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                            </svg>
+                            <a href="./recipes.html">
+                                <span class="font-medium">View Recipes</span>
+                                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg"
+                                    class="inline w-4 h-4">
+                                    <path
+                                        d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                                </svg>
+                            </a>
                         </button>
                     </div>
                 </div>
@@ -234,12 +239,14 @@
                         <li class=""><img class="object-cover" src="./images/partner (1).png" alt=""></li>
                     </ul>
                     <button class="bg-aubergine text-crema-tint rounded-5xl text-lg py-2 px-4 ">
-                        <span class="font-medium">Partner With Fresco</span>
-                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
-                            <path
-                                d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                        </svg>
+                        <a href="./partners.html">
+                            <span class="font-medium">Partner With Fresco</span>
+                            <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
+                                <path
+                                    d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                    fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                            </svg>
+                        </a>
                     </button>
                 </div>
             </div>
@@ -254,7 +261,7 @@
                         it can be to serve your favorites.</p>
                 </div>
                 <div class="md:auto-rows-[400px] md:grid-cols-2 lg:grid-cols-3 grid grid-cols-1 auto-rows-[280px] gap-4">
-                    <div class="bg-[url('./images/soup.jpg')] bg-cover text-crema grid rounded-3xl">
+                    <div class="bg-[url('./images/soup.jpg')] bg-cover text-crema grid grid-cols-[60%,40%] rounded-3xl">
                         <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
                             <p class="text-2xl font-medium hover:underline cursor-pointer">Top Rated on Fresco</p>
                             <p class="font-medium">The best of the best.</p>
@@ -268,7 +275,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="bg-cake bg-cover text-crema-tint grid rounded-3xl">
+                    <div class="bg-cake bg-cover text-crema-tint grid grid-cols-[60%,40%] rounded-3xl">
                         <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
                             <p class="text-2xl font-medium hover:underline cursor-pointer">Instant Pot Pro Plus Recipes You'll Love</p>
                             <p class="font-medium">Sync your Instant Pot and get cooking in a flash.</p>
@@ -282,7 +289,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="bg-cereal bg-cover text-crema grid rounded-3xl">
+                    <div class="bg-cereal bg-cover text-crema grid grid-cols-[60%,40%] rounded-3xl">
                         <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
                             <p class="text-2xl font-medium hover:underline cursor-pointer">Eat Fresh with Fresco</p>
                             <p class="font-medium">Clean, lean and ready in a cinch.</p>
@@ -296,7 +303,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="bg-shrooms bg-cover text-crema-tint grid rounded-3xl">
+                    <div class="bg-shrooms bg-cover text-crema-tint grid grid-cols-[60%,40%] rounded-3xl">
                         <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
                             <p class="text-2xl font-medium hover:underline cursor-pointer">Thermomix Family Favorites</p>
                             <p class="font-medium">Delicious, nourishing and enough to feed the whole family.</p>
@@ -310,7 +317,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="bg-peas bg-cover text-crema grid rounded-3xl">
+                    <div class="bg-peas bg-cover text-crema grid grid-cols-[60%,40%] rounded-3xl">
                         <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
                             <p class="text-2xl font-medium hover:underline cursor-pointer">Air Fryer Recipes You Need to Try</p>
                             <p class="font-medium">Crispy, crunchy and lower in fat.</p>
@@ -324,7 +331,7 @@
                             </svg>
                         </div>
                     </div>
-                    <div class="bg-shrooms bg-cover text-crema-tint grid rounded-3xl">
+                    <div class="bg-shrooms bg-cover text-crema-tint grid grid-cols-[60%,40%] rounded-3xl">
                         <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
                             <p class="text-2xl font-medium hover:underline cursor-pointer">Panasonic 4-in-1 Multi Oven Recipes</p>
                             <p class="font-medium">Tried and tested with your 5-in-1 oven in mind</p>
@@ -341,12 +348,14 @@
                 </div>
 
                 <button class="bg-aubergine text-crema-tint rounded-5xl text-lg py-2 px-4 ">
-                    <span class="font-medium">More Recipes</span>
-                    <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
-                        <path
-                            d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
-                            fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
-                    </svg>
+                    <a href="./recipes.html">
+                        <span class="font-medium">More Recipes</span>
+                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
+                            <path
+                                d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
                 </button>
 
             </article>
@@ -626,7 +635,7 @@
                 </div>
             </article>
             <article class="wrapper bg-coal text-crema-tint font-dmsans py-12">
-                <div class="lg:grid-cols-[max-content,auto,auto] max-w-screen-xlg xlg:mx-auto col-start-2 gap-8 grid ">
+                <div class="lg:grid-cols-[max-content,auto,auto] lg:min-h-[60vh]  lg:content-center max-w-screen-xlg xlg:mx-auto col-start-2 gap-8 grid ">
                     <div class="w-40">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 757.8 206" class="">
                             <path
@@ -635,22 +644,22 @@
                         </svg>
                     </div>
                     <div class="md:grid-cols-3 xs:grid-cols-2 grid gap-8">
-                        <ul class="space-y-2">
-                            <li>Mobile App</li>
-                            <li>Appliances</li>
-                            <li>Recipes</li> 
-                            <li>Support</li>
+                        <ul class="space-y-4">
+                            <li><a href="./mobileapp.html">Mobile App</a></li>
+                            <li><a href="./appliances.html">Appliances</a></li>
+                            <li><a href="./recipes.html">Recipes</a></li> 
+                            <li><a href="./support.html">Support</a></li>
                         </ul>
 
-                        <ul class="space-y-2">
-                            <li>Appliance Partners</li>
-                            <li>Get Demo</li>
-                            <li>About Us</li>
-                            <li>Careers</li>
-                            <li>Legal</li>
+                        <ul class="space-y-4">
+                            <li><a href="./partners.html">Appliance Partners</a></li>
+                            <li><a href="./demo.html">Get Demo</a></li>
+                            <li><a href="./about.html">About Us</a></li>
+                            <li><a href="./careers.html">Careers</a></li>
+                            <li><a href="./legal.html">Legal</a></li>
                         </ul>
 
-                        <ul class="space-y-2">
+                        <ul class="space-y-4">
                             <li>NEWS</li>
                             <li>Fresco sponsors SKS 2022</li>
                             <li>Will Deines joins Fresco as COO</li>
