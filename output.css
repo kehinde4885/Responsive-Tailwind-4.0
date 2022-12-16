@@ -820,12 +820,21 @@ html {
   grid-row-start: 1;
 }
 
+.my-12 {
+  margin-top: 3em;
+  margin-bottom: 3em;
+}
+
 .ml-auto {
   margin-left: auto;
 }
 
 .ml-12 {
   margin-left: 3em;
+}
+
+.mb-12 {
+  margin-bottom: 3em;
 }
 
 .inline {
@@ -1101,6 +1110,16 @@ html {
   border-radius: 1rem;
 }
 
+.rounded-t {
+  border-top-left-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
+}
+
+.rounded-t-2xl {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
 .rounded-tr-2xl {
   border-top-right-radius: 1rem;
 }
@@ -1262,6 +1281,22 @@ html {
   padding: 2em;
 }
 
+.p-4 {
+  padding: 1em;
+}
+
+.p-5 {
+  padding: 1.25em;
+}
+
+.p-6 {
+  padding: 1.5em;
+}
+
+.p-12 {
+  padding: 3em;
+}
+
 .px-5 {
   padding-left: 1.25em;
   padding-right: 1.25em;
@@ -1310,6 +1345,10 @@ html {
   padding-bottom: 1em;
 }
 
+.pb-12 {
+  padding-bottom: 3em;
+}
+
 .text-center {
   text-align: center;
 }
@@ -1350,8 +1389,21 @@ html {
   line-height: 1.75rem;
 }
 
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+}
+
 .font-medium {
   font-weight: 500;
+}
+
+.uppercase {
+  text-transform: uppercase;
+}
+
+.capitalize {
+  text-transform: capitalize;
 }
 
 .leading-relaxed {
@@ -1463,6 +1515,35 @@ html {
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
+}
+
+.text-aubergine-shade {
+  --tw-text-opacity: 1;
+  color: rgb(63 16 38 / var(--tw-text-opacity));
+}
+
+.opacity-40 {
+  opacity: 0.4;
+}
+
+.opacity-30 {
+  opacity: 0.3;
+}
+
+.opacity-60 {
+  opacity: 0.6;
+}
+
+.opacity-70 {
+  opacity: 0.7;
+}
+
+.opacity-80 {
+  opacity: 0.8;
+}
+
+.opacity-90 {
+  opacity: 0.9;
 }
 
 .mix-blend-multiply {

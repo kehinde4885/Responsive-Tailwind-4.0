@@ -13,3 +13,7 @@ NOTES
 -Trial and Error is the death of the development Process, it slows down everything, Proper planning is required 
 for every level in web development
 -Project should be Pushed to GIT when each aspect is completed, e.g(Responsive Layout for a page,Typography etc)
+
+NOTES FOR DESIGN RESEARCH
+Ground Up Design
+-Elements > Components > Pages > Websites
