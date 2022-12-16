@@ -14,4 +14,375 @@
 </head>
 
 <body class="text-coal">
+    <div>
+        <header class="lg:justify-between px-5 pt-8 pb-4 flex bg-aubergine items-center">
+            <a href="./index.html"><img class="w-36" src="./images/frescoLogo.svg" alt=""></a>
+
+            <nav class="lg:block basis-auto hidden">
+                <ul class="flex text-white font-walsheim text-2xl font-medium space-x-4">
+                    <li><a href="./mobileapp.html">Mobile App</a></li>
+                    <li><a href="./appliances.html">Appliances</a></li>
+                    <li><a href="./recipes.html">Recipes</a></li>
+                    <li><a href="./partners.html">Partners</a></li>
+                </ul>
+            </nav>
+
+
+            <button
+            class="lg:ml-0 xs:block xs:ml-auto hidden bg-crema-tint text-aubergine font-medium rounded-5xl text-lg py-2 px-4 w-max">
+            <a href="./mobileapp.html/#download">Download App</a>
+            </button>
+
+            <div class="lg:hidden xs:ml-2 ml-auto self-center bg-crema-tint rounded-full p-2 w-10 h-10">
+                <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full text-aubergine">
+                    <path
+                        d="M1.5 3C1.22386 3 1 3.22386 1 3.5C1 3.77614 1.22386 4 1.5 4H13.5C13.7761 4 14 3.77614 14 3.5C14 3.22386 13.7761 3 13.5 3H1.5ZM1 7.5C1 7.22386 1.22386 7 1.5 7H13.5C13.7761 7 14 7.22386 14 7.5C14 7.77614 13.7761 8 13.5 8H1.5C1.22386 8 1 7.77614 1 7.5ZM1 11.5C1 11.2239 1.22386 11 1.5 11H13.5C13.7761 11 14 11.2239 14 11.5C14 11.7761 13.7761 12 13.5 12H1.5C1.22386 12 1 11.7761 1 11.5Z"
+                        fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                </svg>
+            </div>
+        </header>
+
+        <!-- Hero -->
+        <section>
+            <div class="">
+                <div class="wrapper  relative  bg-gradient-to-b from-[rgba(0,0,0,0.6)] to-[rgba(0,0,0,0.2)]">
+                    <div
+                        class="mix-blend-multiply bg-[url('./images/header.webp')] bg-cover bg-center bg-no-repeat top-0 absolute h-full w-full ">
+                    </div>
+                    <h1
+                        class="md:min-h-[55vh] md:text-10xl md:py-3 sm:text-[4.75rem] text-7xl py-5 col-start-2 relative text-crema-tint font-walsheim font-medium tracking-tighter text-center">
+                        Recipes.
+                    </h1>
+                </div>
+                <div class="wrapper sm:py-20 bg-crema-tint py-12">
+                    <div class="max-w-screen-xlg xlg:mx-auto col-start-2 space-y-8 flex flex-col items-center">
+                        <p class="md:text-[2rem] md:leading-normal font-walsheim text-coal text-2xl text-center">
+                            Make cooking at home easy, effortless and fun with Fresco. 
+                            Just tell us what appliances you have, and we’ll find the perfect recipes for them.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
+        <!-- Recipes -->
+        <section class="wrapper bg-coal">
+            <article class="max-w-screen-xlg xlg:mx-auto col-start-2 gap-y-10 grid items-center justify-items-start py-12">
+                <div class="font-walsheim space-y-4 ">
+                    <p class="lg:text-7xl md:text-5xl text-[2rem] text-aubergine-tint font-medium">Top Rated Recipes</p>
+                    <p class="md:text-4xl text-2xl text-crema-tint leading-relaxed">Explore the best of the best on Fresco.</p>
+                </div>
+                <div class="xl:grid-cols-4 lg:grid-cols-3 md:auto-rows-[400px] md:grid-cols-2  grid grid-cols-1 auto-rows-[280px] gap-4">
+                    <div class="bg-rated1 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Paprika Chicken and Spinach With White Wine Butter Thyme Sauce</p>
+                            <p class="font-medium text-white">thekitchenpaper.com</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated2 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Vegetarian Black Bean Chilli</p>
+                            <p class="font-medium text-white">Kamran Siddiqi</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated3 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">One Pan Singapore Noodles</p>
+                            <p class="font-medium text-white">Donal Skehan</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated4 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Quick Chocolate Chip Cookies</p>
+                            <p class="font-medium text-white">Stephane Stocki</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated5 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Salsa Fresca</p>
+                            <p class="font-medium text-white">Fresco</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated6 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Teriyaki Glazed Salmon</p>
+                            <p class="font-medium text-white">Panasonic</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated7 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Potatoes Roasted with Rosemary and Balsamic Vinegar</p>
+                            <p class="font-medium text-white">Feeding Gluten Free</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-rated8 bg-cover text-aubergine-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Vanilla Blueberry Pound Cake</p>
+                            <p class="font-medium text-white">Fresco</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+
+                <button class="bg-aubergine-tint text-aubergine rounded-5xl text-lg py-2 px-4 ">
+                    <a href="./recipes.html">
+                        <span class="font-medium">View Collection</span>
+                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
+                            <path
+                                d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </button>
+
+            </article>
+        </section>
+
+        <!-- Recipes2 -->
+        <section class="wrapper bg-squash-shade">
+            <article class="max-w-screen-xlg xlg:mx-auto col-start-2 gap-y-10 grid items-center justify-items-start py-12">
+                <div class="font-walsheim space-y-4 ">
+                    <p class="lg:text-7xl md:text-5xl text-[2rem] text-squash font-medium">Eat Fresh with Fresco</p>
+                    <p class="md:text-4xl text-2xl text-squash-tint leading-relaxed">Clean,lean, and ready in a cinch.</p>
+                </div>
+                <div class="xl:grid-cols-4 lg:grid-cols-3 md:auto-rows-[400px] md:grid-cols-2  grid grid-cols-1 auto-rows-[280px] gap-4">
+                    <div class="bg-fresh1 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Poke Bowl</p>
+                            <p class="font-medium text-white">Feasting at Home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh2 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Low-Carb Blueberry Smoothie</p>
+                            <p class="font-medium text-white">Simply So Healthy</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh3 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Vegan Glow Bowl</p>
+                            <p class="font-medium text-white">Feasting at home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh4 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Crab Louie Lettuce Wraps</p>
+                            <p class="font-medium text-white">Feasting at Home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh5 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Bali Bowls with Peanut Tofu</p>
+                            <p class="font-medium text-white">Feasting at home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh6 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Greek Souvlaki Bowl With Cauliflower Rice</p>
+                            <p class="font-medium text-white">Feasting at home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh7 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Healthy Vegan Collard Green Wraps</p>
+                            <p class="font-medium text-white">Feasting at home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="bg-fresh8 bg-cover text-squash-tint grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Smoked Salmon, Avocado and Fennel Salad</p>
+                            <p class="font-medium text-white">Feasting at Home</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-squash rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                  
+                </div>
+
+                <button class="bg-squash text-squash-shade rounded-5xl text-lg py-2 px-4 ">
+                    <a href="./recipes.html">
+                        <span class="font-medium">View Collection</span>
+                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
+                            <path
+                                d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </button>
+
+            </article>
+        </section>
+
+        <!-- Recipes3 -->
+        <section class="wrapper bg-aubergine">
+            <article class="max-w-screen-xlg xlg:mx-auto col-start-2 gap-y-10 grid items-center justify-items-start py-12">
+                <div class="font-walsheim space-y-4 ">
+                    <p class="lg:text-7xl md:text-5xl text-[2rem] text-aubergine-tint font-medium">Panasonic 4-in-1 Recipes</p>
+                    <p class="md:text-4xl text-2xl text-white leading-relaxed">Tried,tested, and made just for your Panasonic multi-oven.</p>
+                </div>
+                <div class="xl:grid-cols-4 lg:grid-cols-3 md:auto-rows-[400px] md:grid-cols-2 grid grid-cols-1 auto-rows-[280px] gap-4 justify-self-stretch">
+                    <div class="bg-pan1 bg-cover text-white grid grid-cols-[60%,40%] rounded-3xl">
+                        <div class="rounded-3xl row-start-1 col-start-1 col-span-2  gradient flex flex-col justify-end space-y-2 p-8 ">
+                            <p class="text-2xl font-medium hover:underline cursor-pointer">Five Minute Brownies</p>
+                            <p class="font-medium">Chloe Harris</p>
+                        </div>
+                        <div class="row-start-1 col-start-2">
+                            <svg class="text-aubergine-tint rounded-3xl" viewBox="300 0 300 300" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd"
+                                    d="M300 600C465.685 600 600 465.685 600 300V600H300ZM0 300C0 465.685 134.315 600 300 600H0V300ZM300 0C134.315 0 0 134.315 0 300V0H300ZM300 0H600V300C600 134.315 465.685 0 300 0Z"
+                                    fill="currentColor"></path>
+                            </svg>
+                        </div>
+                    </div>
+                    
+                </div>
+
+                <button class="bg-aubergine-tint text-aubergine-shade rounded-5xl text-lg py-2 px-4 ">
+                    <a href="./recipes.html">
+                        <span class="font-medium">View Collection</span>
+                        <svg viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg" class="inline w-4 h-4">
+                            <path
+                                d="M8.14645 3.14645C8.34171 2.95118 8.65829 2.95118 8.85355 3.14645L12.8536 7.14645C13.0488 7.34171 13.0488 7.65829 12.8536 7.85355L8.85355 11.8536C8.65829 12.0488 8.34171 12.0488 8.14645 11.8536C7.95118 11.6583 7.95118 11.3417 8.14645 11.1464L11.2929 8H2.5C2.22386 8 2 7.77614 2 7.5C2 7.22386 2.22386 7 2.5 7H11.2929L8.14645 3.85355C7.95118 3.65829 7.95118 3.34171 8.14645 3.14645Z"
+                                fill="currentColor" fill-rule="evenodd" clip-rule="evenodd"></path>
+                        </svg>
+                    </a>
+                </button>
+
+            </article>
+        </section>
+
+    </div>
+
+
 </body>

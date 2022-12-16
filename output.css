@@ -796,10 +796,6 @@ html {
   z-index: -1;
 }
 
-.order-2 {
-  order: 2;
-}
-
 .col-span-2 {
   grid-column: span 2 / span 2;
 }
@@ -820,21 +816,12 @@ html {
   grid-row-start: 1;
 }
 
-.my-12 {
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-
 .ml-auto {
   margin-left: auto;
 }
 
 .ml-12 {
   margin-left: 3em;
-}
-
-.mb-12 {
-  margin-bottom: 3em;
 }
 
 .inline {
@@ -942,10 +929,6 @@ html {
   max-width: 1162px;
 }
 
-.max-w-screen-2xlg {
-  max-width: 1230px;
-}
-
 .basis-auto {
   flex-basis: auto;
 }
@@ -1002,6 +985,10 @@ html {
 
 .justify-between {
   justify-content: space-between;
+}
+
+.justify-items-start {
+  justify-items: start;
 }
 
 .justify-items-center {
@@ -1082,6 +1069,10 @@ html {
   align-self: center;
 }
 
+.justify-self-stretch {
+  justify-self: stretch;
+}
+
 .overflow-hidden {
   overflow: hidden;
 }
@@ -1108,11 +1099,6 @@ html {
 
 .rounded-2xl {
   border-radius: 1rem;
-}
-
-.rounded-t {
-  border-top-left-radius: 0.25rem;
-  border-top-right-radius: 0.25rem;
 }
 
 .rounded-t-2xl {
@@ -1241,6 +1227,74 @@ html {
   background-image: url("./images/recipe1.png");
 }
 
+.bg-rated1 {
+  background-image: url("./images/rated1.jpg");
+}
+
+.bg-rated2 {
+  background-image: url("./images/rated2.jpg");
+}
+
+.bg-rated3 {
+  background-image: url("./images/rated3.jpg");
+}
+
+.bg-rated4 {
+  background-image: url("./images/rated4.jpg");
+}
+
+.bg-rated5 {
+  background-image: url("./images/rated5.jpg");
+}
+
+.bg-rated6 {
+  background-image: url("./images/rated6.jpg");
+}
+
+.bg-rated7 {
+  background-image: url("./images/rated7.jpg");
+}
+
+.bg-rated8 {
+  background-image: url("./images/rated8.jpg");
+}
+
+.bg-fresh1 {
+  background-image: url("./images/fresh1.jpg");
+}
+
+.bg-fresh2 {
+  background-image: url("./images/fresh2.jpg");
+}
+
+.bg-fresh3 {
+  background-image: url("./images/fresh3.jpg");
+}
+
+.bg-fresh4 {
+  background-image: url("./images/fresh4.jpg");
+}
+
+.bg-fresh5 {
+  background-image: url("./images/fresh5.jpg");
+}
+
+.bg-fresh6 {
+  background-image: url("./images/fresh6.jpg");
+}
+
+.bg-fresh7 {
+  background-image: url("./images/fresh7.jpg");
+}
+
+.bg-fresh8 {
+  background-image: url("./images/fresh8.jpg");
+}
+
+.bg-pan1 {
+  background-image: url("./images/pan1.jpg");
+}
+
 .from-\[rgba\(0\2c 0\2c 0\2c 0\.6\)\] {
   --tw-gradient-from: rgba(0,0,0,0.6);
   --tw-gradient-to: rgb(0 0 0 / 0);
@@ -1281,20 +1335,8 @@ html {
   padding: 2em;
 }
 
-.p-4 {
-  padding: 1em;
-}
-
-.p-5 {
-  padding: 1.25em;
-}
-
 .p-6 {
   padding: 1.5em;
-}
-
-.p-12 {
-  padding: 3em;
 }
 
 .px-5 {
@@ -1343,10 +1385,6 @@ html {
 
 .pb-4 {
   padding-bottom: 1em;
-}
-
-.pb-12 {
-  padding-bottom: 3em;
 }
 
 .text-center {
@@ -1522,22 +1560,6 @@ html {
   color: rgb(63 16 38 / var(--tw-text-opacity));
 }
 
-.opacity-40 {
-  opacity: 0.4;
-}
-
-.opacity-30 {
-  opacity: 0.3;
-}
-
-.opacity-60 {
-  opacity: 0.6;
-}
-
-.opacity-70 {
-  opacity: 0.7;
-}
-
 .opacity-80 {
   opacity: 0.8;
 }
@@ -1571,7 +1593,7 @@ body{
 }
 
 .gradient {
-  background: linear-gradient(180deg, rgba(255,255,255,0) 34%, rgba(0,0,0,.9) 70%);
+  background: linear-gradient(180deg, rgba(255,255,255,0) 34%, rgba(0,0,0,.9) 80%);
 }
 
 .hot{
@@ -1840,39 +1862,8 @@ body{
     margin-right: auto;
   }
 
-  .\32xlg\:w-\[\] {
-    width: ;
-  }
-
   .\32xlg\:w-\[1230px\] {
     width: 1230px;
-  }
-
-  .\32xlg\:w-\[2xlg\] {
-    width: 2xlg;
-  }
-
-  .\32xlg\:w-\[\"2xlg\"\] {
-    width: "2xlg";
-  }
-
-  .\32xlg\:w-\[\'2xlg\'\] {
-    width: '2xlg';
-  }
-
-  .\32xlg\:translate-x-6 {
-    --tw-translate-x: 1.5em;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .\32xlg\:translate-x-2\/4 {
-    --tw-translate-x: 50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
-  }
-
-  .\32xlg\:-translate-x-2\/4 {
-    --tw-translate-x: -50%;
-    transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
   }
 
   .\32xlg\:-translate-x-3\/4 {
@@ -1891,6 +1882,12 @@ body{
 }
 
 @media (min-width: 1280px) {
+  @media (min-width: 1024px) {
+    .xl\:lg\:grid-cols-3 {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+
   .xl\:absolute {
     position: absolute;
   }
@@ -1906,6 +1903,10 @@ body{
 
   .xl\:w-full {
     width: 100%;
+  }
+
+  .xl\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
   }
 
   .xl\:flex-row {
