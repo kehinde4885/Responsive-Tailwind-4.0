@@ -816,6 +816,11 @@ html {
   grid-row-start: 1;
 }
 
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .ml-auto {
   margin-left: auto;
 }
@@ -927,6 +932,11 @@ html {
 
 .max-w-screen-xlg {
   max-width: 1162px;
+}
+
+.max-w-max {
+  max-width: -moz-max-content;
+  max-width: max-content;
 }
 
 .basis-auto {
@@ -1199,6 +1209,16 @@ html {
   background-color: rgb(252 240 213 / var(--tw-bg-opacity));
 }
 
+.bg-carrot-shade {
+  --tw-bg-opacity: 1;
+  background-color: rgb(89 45 5 / var(--tw-bg-opacity));
+}
+
+.bg-tomato-shade {
+  --tw-bg-opacity: 1;
+  background-color: rgb(71 16 16 / var(--tw-bg-opacity));
+}
+
 .bg-gradient-to-b {
   background-image: linear-gradient(to bottom, var(--tw-gradient-stops));
 }
@@ -1291,8 +1311,132 @@ html {
   background-image: url("./images/fresh8.jpg");
 }
 
-.bg-pan1 {
-  background-image: url("./images/pan1.jpg");
+.bg-pan2 {
+  background-image: url("./images/pan2.jpg");
+}
+
+.bg-pan3 {
+  background-image: url("./images/pan3.jpg");
+}
+
+.bg-pan4 {
+  background-image: url("./images/pan4.jpg");
+}
+
+.bg-pan5 {
+  background-image: url("./images/pan5.jpg");
+}
+
+.bg-pan6 {
+  background-image: url("./images/pan6.jpg");
+}
+
+.bg-pan7 {
+  background-image: url("./images/pan7.jpg");
+}
+
+.bg-pan8 {
+  background-image: url("./images/pan8.jpg");
+}
+
+.bg-fryer1 {
+  background-image: url("./images/fryer1.jpg");
+}
+
+.bg-fryer2 {
+  background-image: url("./images/fryer2.webp");
+}
+
+.bg-fryer3 {
+  background-image: url("./images/fryer3.jpg");
+}
+
+.bg-fryer4 {
+  background-image: url("./images/fryer4.jpg");
+}
+
+.bg-fryer5 {
+  background-image: url("./images/fryer5.jpg");
+}
+
+.bg-fryer6 {
+  background-image: url("./images/fryer6.jpg");
+}
+
+.bg-fryer7 {
+  background-image: url("./images/fryer7.jpg");
+}
+
+.bg-fryer8 {
+  background-image: url("./images/fryer8.jpg");
+}
+
+.bg-instant1 {
+  background-image: url("./images/instant1.jpg");
+}
+
+.bg-instant2 {
+  background-image: url("./images/instant2.jpg");
+}
+
+.bg-instant3 {
+  background-image: url("./images/instant3.jpg");
+}
+
+.bg-instant4 {
+  background-image: url("./images/instant4.jpg");
+}
+
+.bg-instant5 {
+  background-image: url("./images/instant5.jpg");
+}
+
+.bg-instant6 {
+  background-image: url("./images/instant6.jpg");
+}
+
+.bg-instant7 {
+  background-image: url("./images/instant7.jpg");
+}
+
+.bg-instant8 {
+  background-image: url("./images/instant8.jpg");
+}
+
+.bg-mix1 {
+  background-image: url("./images/mix1.jpg");
+}
+
+.bg-mix2 {
+  background-image: url("./images/mix2.jpg");
+}
+
+.bg-mix3 {
+  background-image: url("./images/mix3.jpg");
+}
+
+.bg-mix4 {
+  background-image: url("./images/mix4.jpg");
+}
+
+.bg-mix5 {
+  background-image: url("./images/mix5.jpg");
+}
+
+.bg-mix6 {
+  background-image: url("./images/mix6.jpg");
+}
+
+.bg-mix7 {
+  background-image: url("./images/mix7.jpg");
+}
+
+.bg-mix8 {
+  background-image: url("./images/mix8.jpg");
+}
+
+.bg-rice {
+  background-image: url("./images/recipe4.jpg");
 }
 
 .from-\[rgba\(0\2c 0\2c 0\2c 0\.6\)\] {
@@ -1430,6 +1574,11 @@ html {
 .text-sm {
   font-size: 0.875rem;
   line-height: 1.25rem;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .font-medium {
@@ -1882,12 +2031,6 @@ body{
 }
 
 @media (min-width: 1280px) {
-  @media (min-width: 1024px) {
-    .xl\:lg\:grid-cols-3 {
-      grid-template-columns: repeat(3, minmax(0, 1fr));
-    }
-  }
-
   .xl\:absolute {
     position: absolute;
   }

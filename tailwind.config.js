@@ -86,7 +86,7 @@ module.exports = {
         'pan7': 'url("./images/pan7.jpg")',
         'pan8': 'url("./images/pan8.jpg")',
         'fryer1': 'url("./images/fryer1.jpg")',
-        'fryer2': 'url("./images/fryer2.jpg")',
+        'fryer2': 'url("./images/fryer2.webp")',
         'fryer3': 'url("./images/fryer3.jpg")',
         'fryer4': 'url("./images/fryer4.jpg")',
         'fryer5': 'url("./images/fryer5.jpg")',
