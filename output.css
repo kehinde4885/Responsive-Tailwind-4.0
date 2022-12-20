@@ -821,16 +821,6 @@ html {
   margin-right: auto;
 }
 
-.my-4 {
-  margin-top: 1em;
-  margin-bottom: 1em;
-}
-
-.my-5 {
-  margin-top: 1.25em;
-  margin-bottom: 1.25em;
-}
-
 .ml-auto {
   margin-left: auto;
 }
@@ -942,14 +932,6 @@ html {
 
 .w-2\/4 {
   width: 50%;
-}
-
-.w-3 {
-  width: 0.75em;
-}
-
-.w-3\/5 {
-  width: 60%;
 }
 
 .w-56 {
@@ -1105,12 +1087,6 @@ html {
   margin-bottom: calc(0.75em * var(--tw-space-y-reverse));
 }
 
-.space-y-1 > :not([hidden]) ~ :not([hidden]) {
-  --tw-space-y-reverse: 0;
-  margin-top: calc(0.25em * calc(1 - var(--tw-space-y-reverse)));
-  margin-bottom: calc(0.25em * var(--tw-space-y-reverse));
-}
-
 .space-y-16 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-y-reverse: 0;
   margin-top: calc(4em * calc(1 - var(--tw-space-y-reverse)));
@@ -1159,10 +1135,6 @@ html {
 
 .rounded-2xl {
   border-radius: 1rem;
-}
-
-.rounded {
-  border-radius: 0.25rem;
 }
 
 .rounded-t-2xl {
@@ -1299,6 +1271,10 @@ html {
 
 .bg-peas {
   background-image: url("./images/recipe1.png");
+}
+
+.bg-\[url\(\'\.\/images\/header4\.jpg\'\)\] {
+  background-image: url('./images/header4.jpg');
 }
 
 .bg-\[url\(\'\.\/images\/header2\.jpg\'\)\] {
@@ -1489,14 +1465,6 @@ html {
   background-image: url("./images/mix8.jpg");
 }
 
-.bg-\[url\(\'\.\/images\/header4\.webp\'\)\] {
-  background-image: url('./images/header4.webp');
-}
-
-.bg-\[url\(\'\.\/images\/header4\.jpg\'\)\] {
-  background-image: url('./images/header4.jpg');
-}
-
 .from-\[rgba\(0\2c 0\2c 0\2c 0\.6\)\] {
   --tw-gradient-from: rgba(0,0,0,0.6);
   --tw-gradient-to: rgb(0 0 0 / 0);
@@ -1579,11 +1547,6 @@ html {
 .px-2 {
   padding-left: 0.5em;
   padding-right: 0.5em;
-}
-
-.py-4 {
-  padding-top: 1em;
-  padding-bottom: 1em;
 }
 
 .py-8 {
@@ -1782,14 +1745,6 @@ html {
   color: rgb(63 16 38 / var(--tw-text-opacity));
 }
 
-.text-\[\] {
-  color: ;
-}
-
-.text-\[2\] {
-  color: 2;
-}
-
 .opacity-80 {
   opacity: 0.8;
 }
@@ -1833,10 +1788,6 @@ body{
 .wrapper {
   display: grid;
   grid-template-columns: 1fr 8fr 1fr;
-}
-
-.first-letter\:font-walsheim::first-letter {
-  font-family: GT Walsheim;
 }
 
 .hover\:underline:hover {
@@ -1962,12 +1913,6 @@ body{
     justify-content: space-between;
   }
 
-  .md\:space-x-4 > :not([hidden]) ~ :not([hidden]) {
-    --tw-space-x-reverse: 0;
-    margin-right: calc(1em * var(--tw-space-x-reverse));
-    margin-left: calc(1em * calc(1 - var(--tw-space-x-reverse)));
-  }
-
   .md\:space-x-8 > :not([hidden]) ~ :not([hidden]) {
     --tw-space-x-reverse: 0;
     margin-right: calc(2em * var(--tw-space-x-reverse));
@@ -2008,11 +1953,6 @@ body{
     line-height: 2.5rem;
   }
 
-  .md\:text-2xl {
-    font-size: 1.5rem;
-    line-height: 2rem;
-  }
-
   .md\:leading-normal {
     line-height: 1.5;
   }
@@ -2023,13 +1963,6 @@ body{
 }
 
 @media (min-width: 1024px) {
-  @media (min-width: 768px) {
-    .lg\:md\:text-5xl {
-      font-size: 3rem;
-      line-height: 1;
-    }
-  }
-
   .lg\:col-start-3 {
     grid-column-start: 3;
   }
@@ -2118,10 +2051,6 @@ body{
   .lg\:text-\[2rem\] {
     font-size: 2rem;
   }
-
-  .lg\:text-\[\] {
-    color: ;
-  }
 }
 
 @media (min-width: 1162px) {
@@ -2132,13 +2061,6 @@ body{
 }
 
 @media (min-width: 1230px) {
-  @media (min-width: 1024px) {
-    .\32xlg\:lg\:text-5xl {
-      font-size: 3rem;
-      line-height: 1;
-    }
-  }
-
   .\32xlg\:mx-auto {
     margin-left: auto;
     margin-right: auto;
